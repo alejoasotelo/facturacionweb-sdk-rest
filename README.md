@@ -24,7 +24,7 @@ require_once __DIR__.'/vendor/autoload.php';
 
 use AlejoASotelo\FacturacionWeb;
 
-$accessToken = 'CL9999999';
+$accessToken = 'MIACCESSTOKEN';
 $debug = true;
 
 $ws = new FacturacionWeb($accessToken, $debug);
